@@ -654,7 +654,7 @@ hr {
     padding: 0;
     display: block;
     box-sizing: border-box;
-    margin-top: 2px; }
+    margin-top: 2px;}
 
   .game-container {
     margin-top: 17px;
@@ -980,18 +980,21 @@ a.learn:hover, a.keep-playing-button:hover, a.learn-low:hover {
   background-image: linear-gradient(to bottom,#f59a18 0,#f27d13 100%);
   background-repeat: repeat-x;
 }
+
 .restart-button, a.retry-button {
   display: inline-block;
   background: #1e6477;
   border-radius: 3px;
-  padding: 0 20px;
+  padding: 10px 20px;
+  height: 25px;
   text-decoration: none;
+  font-size: 24px;
   color: #f9f6f2;
-  line-height: 42px;
+  line-height: 25px;
   cursor: pointer;
   display: block;
   text-align: center;
-  float: right; 
+  float: left; 
   margin-top: 7px;
 }
 
