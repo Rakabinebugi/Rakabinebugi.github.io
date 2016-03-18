@@ -12,15 +12,12 @@ body {
   border: 0;
 }
 
-#logo-image {
+#logo-imagee {
   width: 100px;
   height: 100px;
   margin: 10px 15px 10px 0;
 }
 
-#follow-fb, #follow-tw, #follow-inst {
-  margin: 10px 15px 10px 0;
-}
 
 .navbar-brand {
   padding-top: 25px;
