@@ -627,8 +627,7 @@ hr {
     padding: 0 20px; }
 
   h1.title {
-    font-size: 27px;
-    margin-top: 15px; }
+    font-size: 27px;}
 
   .container {
     width: 280px;
@@ -848,7 +847,7 @@ hr {
   .game-message {
     padding-top: 0; }
     .game-message p {
-      font-size: 30px !important;
+      font-size: 20px !important;
       height: 30px !important;
       line-height: 30px !important;
       margin-top: 32% !important;
