@@ -99,13 +99,12 @@ h1.title {
   display: inline-block;
   background: #0c92bf;
   padding: 15px 25px;
-  font-size: 25px;
+  font-size: 20px;
   height: 25px;
   line-height: 47px;
   font-weight: bold;
   border-radius: 3px;
   color: white;
-  margin-top: 8px;
   text-align: center; }
   .score-container:after, .best-container:after {
     position: absolute;
@@ -650,13 +649,10 @@ hr {
     line-height: 1.65; }
 
   .restart-button, .retry-button {
-    position: absolute;
-    width: 42%;
-    padding: 0;
-    display: block;
-    box-sizing: border-box;
-    margin-top: 2px;}
-
+    width: 30%;
+    padding: 10px 10px;
+    display: block;}
+    
   .game-container {
     margin-top: 17px;
     position: relative;
@@ -986,18 +982,18 @@ a.learn:hover, a.keep-playing-button:hover, a.learn-low:hover {
   display: inline-block;
   background: #1e6477;
   border-radius: 3px;
-  padding: 10px 20px;
+  padding: 10px 10px;
   height: 25px;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 15px;
   color: #f9f6f2;
   line-height: 25px;
   cursor: pointer;
   display: block;
   text-align: center;
-  float: left; 
-  margin-top: 7px;
-}
+  float: left;
+  margin-top: 5px; 
+  }
 
 a.retry-button, a.learn-low {
   width: 150px;
