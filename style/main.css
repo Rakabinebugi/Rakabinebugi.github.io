@@ -629,6 +629,10 @@ hr {
   h1.title {
     font-size: 27px;}
 
+  #ibb-widget-root-1132204246 {
+    max-width: 100%;
+  }
+
   .container {
     width: 280px;
     margin: 0 auto; }
