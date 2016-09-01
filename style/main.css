@@ -59,6 +59,10 @@ input {
   display: block;
   clear: both; }
 
+.mritunessmall {
+    display: none;
+  }
+
 h1.title {
   font-size: 55px;
   font-weight: medium;
@@ -629,8 +633,12 @@ hr {
   h1.title {
     font-size: 27px;}
 
-  #ibb-widget-root-1132204246 {
-    width: 280px;
+  .mritunes {
+    display: none;
+  }
+
+  .mritunessmall {
+    display: block;
   }
 
   .container {
