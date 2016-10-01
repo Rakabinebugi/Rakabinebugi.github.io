@@ -625,6 +625,58 @@ a.retry-button {
   margin-left: 53px;
   float: center;}
 
+  .follow_markus {
+  display: block;
+  font-size: 20px;
+  line-height: 32px;
+  float: left;}
+
+.follow_sites_big {
+  display: block;
+  float: right;
+  line-height: 32px;}
+
+.follow_mr {
+  height: 32px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: block;
+}
+
+.facebook_mr, .instagram_mr, .twitter_mr, .vkontakte_mr, .googleplus_mr {
+  
+  display: inline-block;
+}
+
+.follow_sites_small {
+  display: none;}
+
+.listen_markus {
+  display: block;
+  font-size: 20px;
+  line-height: 32px;
+  float: left;}
+
+.listen_sites_big {
+  display: block;
+  float: right;
+  line-height: 32px;}
+
+.listen_mr {
+  height: 32px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: block;
+}
+
+.itunes_mr, .youtube_mr, .soundcloud_mr, .spotify_mr {
+  
+  display: inline-block;
+}
+
+.listen_sites_small {
+  display: none;}
+
 @media screen and (max-width: 520px) {
   html, body {
     font-size: 10px; }
@@ -884,7 +936,60 @@ a.retry-button {
   .sharing > iframe, .sharing > span, .sharing > form {
     display: block;
     margin: 0 auto;
-    margin-bottom: 20px; } }
+    margin-bottom: 20px; } 
+
+  
+.follow_markus {
+    display: block;
+    font-size: 15px;
+    line-height: 24px;
+    float: left;}
+
+  .follow_sites_small {
+    display: block;
+    float: right;
+    line-height: 24px;}
+
+  .follow_mr {
+    height: 24px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: block;
+  }
+
+  .facebook_mr, .instagram_mr, .twitter_mr, .vkontakte_mr, .googleplus_mr {
+    display: inline-block;
+  }
+
+  .follow_sites_big {
+    display: none;}
+
+  .listen_markus {
+    display: block;
+    font-size: 15px;
+    line-height: 24px;
+    float: left;}
+
+  .listen_sites_small {
+    display: block;
+    float: right;
+    line-height: 24px;}
+
+  .listen_mr {
+    height: 24px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: block;
+  }
+
+  .itunes_mr, .youtube_mr, .soundcloud_mr, .spotify_mr {
+    display: inline-block;
+  }
+
+  .listen_sites_big {
+    display: none;}
+
+}
 
 a.learn, a.keep-playing-button {
   background-color: #de8b3e;
