@@ -669,7 +669,7 @@ a.retry-button {
   display: block;
 }
 
-.itunes_mr, .youtube_mr, .soundcloud_mr, .spotify_mr {
+.itunes_mr, .youtube_mr, .soundcloud_mr, .spotify_mr, .amazon_mr {
   
   display: inline-block;
 }
@@ -982,7 +982,7 @@ a.retry-button {
     display: block;
   }
 
-  .itunes_mr, .youtube_mr, .soundcloud_mr, .spotify_mr {
+  .itunes_mr, .youtube_mr, .soundcloud_mr, .spotify_mr, .amazon_mr {
     display: inline-block;
   }
 
