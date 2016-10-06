@@ -3,13 +3,26 @@ CACHE MANIFEST
 # Adds the ability to play the game online.
 # The following comment needs to be updated whenever a change is made.
 # Run `rake appcache:update` to do so
-# Updated: 2016-01-10 T 23:55
+# Updated: 2016-06-10 T 23:10
 
 # Main page
 index.html
 
 # CSS
 style/main.css
+
+#tile-sets
+tile-sets/MR/2.jpg
+tile-sets/MR/4.jpg
+tile-sets/MR/8.jpg
+tile-sets/MR/16.jpg
+tile-sets/MR/32.jpg
+tile-sets/MR/64.jpg
+tile-sets/MR/128.jpg
+tile-sets/MR/256.jpg
+tile-sets/MR/512.jpg
+tile-sets/MR/1024.jpg
+tile-sets/MR/2048.jpg
 
 # Fonts
 style/fonts/clear-sans.css
