@@ -3,7 +3,7 @@ CACHE MANIFEST
 # Adds the ability to play the game online.
 # The following comment needs to be updated whenever a change is made.
 # Run `rake appcache:update` to do so
-# Updated: 2016-06-10 T 23:10
+# Updated: 2016-07-10 T 18:40
 
 # Main page
 index.html
@@ -55,6 +55,28 @@ js/local_storage_manager.js
 js/tile.js
 
 favicon.ico
+
+#Follow pictures
+images/amazon-24.png
+images/amazon-32.png
+images/facebook-24.png
+images/facebook-32.png
+images/google_plus-24.png
+images/google_plus-32.png
+images/instagram-24.png
+images/instagram-32.png
+images/itunes-24.png
+images/itunes-32.png
+images/youtube-24.png
+images/youtube-32.png
+images/soundcloud-24.png
+images/soundcloud-32.png
+images/spotify-24.png
+images/spotify-32.png
+images/twitter-24.png
+images/twitter-32.png
+images/vkontakte-24.png
+images/vkontakte-32.png
 
 NETWORK:
 *
