@@ -677,6 +677,18 @@ a.retry-button {
 .listen_sites_small {
   display: none;}
 
+
+footer {
+       position: relative;
+       bottom: 0;
+       height: 20px;
+       border-top-width: 1px;
+       border-top-style: solid;
+       border-top-color: #2a2e2f;
+       font-size: 10px;
+       text-align: center;
+    }
+
 @media screen and (max-width: 520px) {
   html, body {
     font-size: 10px; }
