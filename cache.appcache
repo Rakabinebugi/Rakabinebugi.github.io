@@ -3,7 +3,7 @@ CACHE MANIFEST
 # Adds the ability to play the game online.
 # The following comment needs to be updated whenever a change is made.
 # Run `rake appcache:update` to do so
-# Updated: 2016-02-11 T 23:27
+# Updated: 2016-07-11 T 22:33
 
 # Main page
 index.html
@@ -23,6 +23,18 @@ tile-sets/MR/256.jpg
 tile-sets/MR/512.jpg
 tile-sets/MR/1024.jpg
 tile-sets/MR/2048.jpg
+
+tile-sets/Martindiena/2.jpg
+tile-sets/Martindiena/4.jpg
+tile-sets/Martindiena/8.jpg
+tile-sets/Martindiena/16.jpg
+tile-sets/Martindiena/32.jpg
+tile-sets/Martindiena/64.jpg
+tile-sets/Martindiena/128.jpg
+tile-sets/Martindiena/256.jpg
+tile-sets/Martindiena/512.jpg
+tile-sets/Martindiena/1024.jpg
+tile-sets/Martindiena/2048.jpg
 
 # Fonts
 style/fonts/clear-sans.css
