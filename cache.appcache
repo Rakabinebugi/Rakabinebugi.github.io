@@ -3,7 +3,7 @@ CACHE MANIFEST
 # Adds the ability to play the game online.
 # The following comment needs to be updated whenever a change is made.
 # Run `rake appcache:update` to do so
-# Updated: 2016-08-11 T 21:40
+# Updated: 2016-09-11 T 23:12
 
 # Main page
 index.html
@@ -55,6 +55,7 @@ meta/apple-touch-icon.png
 meta/icon_bitcoin.svg
 meta/icon_pp.svg
 meta/og_image.png
+meta/Martindiena.png
 
 # JavaScript
 js/animframe_polyfill.js
