@@ -3,7 +3,7 @@ CACHE MANIFEST
 # Adds the ability to play the game online.
 # The following comment needs to be updated whenever a change is made.
 # Run `rake appcache:update` to do so
-# Updated: 2016-12-08 T 21:42
+# Updated: 2016-12-08 T 21:55
 
 # Main page
 index.html
@@ -95,7 +95,7 @@ images/vkontakte-32.png
 images/mritunessmall.png
 images/mritunes.png
 
-images/a2b.jpg
+images/MR2b.jpg
 
 NETWORK:
 *
