@@ -3,7 +3,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #d4d4d4;
+  
   color: #2a2e2f;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-family: "Whitney SSm A","Whitney SSm B","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -197,7 +197,6 @@ hr {
   100% {
     margin-top: 20%; } }
 .game-container {
-  margin-top: 20px;
   position: relative;
   padding: 15px;
   cursor: default;
