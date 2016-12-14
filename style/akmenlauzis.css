@@ -3,6 +3,7 @@
 html, body {
   margin: 0;
   padding: 0;
+
   
   color: #1f1f1f;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
@@ -10,7 +11,12 @@ html, body {
   font-size: 18px; }
 
 body {
-  margin: 20px 0; }
+  margin: 20px 0;
+  background: url(../images/a2b.jpg) no-repeat 50% 50% fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  }
 
 span.tile-text {
   line-height: 1.25;
@@ -689,7 +695,7 @@ footer {
 
   body {
     margin: 20px 0;
-    padding: 0 20px; }
+    padding: 0 0; }
 
   h1.title {
     font-size: 32px;}
