@@ -3,7 +3,7 @@ CACHE MANIFEST
 # Adds the ability to play the game online.
 # The following comment needs to be updated whenever a change is made.
 # Run `rake appcache:update` to do so
-# Updated: 2016-12-14 T 21:37
+# Updated: 2016-12-22 T 21:05
 
 # Main page
 akmenlauzis.html
@@ -23,6 +23,8 @@ tile-sets/Akmenlauzis/256.jpg
 tile-sets/Akmenlauzis/512.jpg
 tile-sets/Akmenlauzis/1024.jpg
 tile-sets/Akmenlauzis/2048.jpg
+tile-sets/Akmenlauzis/super.jpg
+
 
 # Fonts
 style/fonts/clear-sans.css
@@ -37,10 +39,6 @@ style/fonts/ClearSans-Regular-webfont.svg
 style/fonts/ClearSans-Regular-webfont.woff
 
 # Other resources
-meta/apple-touch-icon.png
-meta/icon_bitcoin.svg
-meta/icon_pp.svg
-meta/og_image.png
 meta/Akmenlauzis.png
 
 # JavaScript
@@ -58,28 +56,10 @@ js/tile.js
 favicon.ico
 
 #Follow pictures
-images/amazon-24.png
-images/amazon-32.png
 images/facebook-24.png
 images/facebook-32.png
-images/google_plus-24.png
-images/google_plus-32.png
 images/instagram-24.png
 images/instagram-32.png
-images/itunes-24.png
-images/itunes-32.png
-images/youtube-24.png
-images/youtube-32.png
-images/soundcloud-24.png
-images/soundcloud-32.png
-images/spotify-24.png
-images/spotify-32.png
-images/twitter-24.png
-images/twitter-32.png
-images/vkontakte-24.png
-images/vkontakte-32.png
-images/mritunessmall.png
-images/mritunes.png
 
 images/a2b.jpg
 
