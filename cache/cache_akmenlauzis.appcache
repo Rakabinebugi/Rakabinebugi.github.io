@@ -1,0 +1,68 @@
+CACHE MANIFEST
+
+# Adds the ability to play the game online.
+# The following comment needs to be updated whenever a change is made.
+# Run `rake appcache:update` to do so
+# Updated: 2016-12-26 T 22:24
+
+# Main page
+akmenlauzis.html
+
+# CSS
+style/akmenlauzis.css
+
+#tile-sets
+tile-sets/Akmenlauzis/2.jpg
+tile-sets/Akmenlauzis/4.jpg
+tile-sets/Akmenlauzis/8.jpg
+tile-sets/Akmenlauzis/16.jpg
+tile-sets/Akmenlauzis/32.jpg
+tile-sets/Akmenlauzis/64.jpg
+tile-sets/Akmenlauzis/128.jpg
+tile-sets/Akmenlauzis/256.jpg
+tile-sets/Akmenlauzis/512.jpg
+tile-sets/Akmenlauzis/1024.jpg
+tile-sets/Akmenlauzis/2048.jpg
+tile-sets/Akmenlauzis/super.jpg
+
+
+# Fonts
+style/fonts/clear-sans.css
+style/fonts/ClearSans-Bold-webfont.eot
+style/fonts/ClearSans-Bold-webfont.svg
+style/fonts/ClearSans-Bold-webfont.woff
+style/fonts/ClearSans-Light-webfont.eot
+style/fonts/ClearSans-Light-webfont.svg
+style/fonts/ClearSans-Light-webfont.woff
+style/fonts/ClearSans-Regular-webfont.eot
+style/fonts/ClearSans-Regular-webfont.svg
+style/fonts/ClearSans-Regular-webfont.woff
+
+# Other resources
+meta/Akmenlauzis.png
+
+# JavaScript
+js/animframe_polyfill.js
+js/application.js
+js/bind_polyfill.js
+js/classlist_polyfill.js
+js/game_manager.js
+js/grid.js
+js/html_actuator.js
+js/keyboard_input_manager.js
+js/local_storage_manager.js
+js/tile.js
+
+favicon.ico
+
+#Follow pictures
+images/facebook-24.png
+images/facebook-32.png
+images/instagram-24.png
+images/instagram-32.png
+
+images/a2b.jpg
+
+
+NETWORK:
+*
