@@ -1,35 +1,21 @@
 <!DOCTYPE html>
-<html lang="en" manifest="cache.appcache">
-<head>
+<html lang="en" manifest="cache/cache_markusriva.appcache">
   <meta charset="utf-8">
   <title>Markus Riva 2048</title>
 
-  <style>html { 
-    background: url(images/MR2b.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;}
-  </style>
-
-  <link href="style/main.css" rel="stylesheet" type="text/css">
-  <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600,700' rel='stylesheet' type='text/css'>
-  <link rel="apple-touch-icon" href="meta/apple-touch-icon.png">
+  <link href="style/markusriva.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="meta/markusriva.png">
+  <link rel="apple-touch-startup-image" href="meta/apple-touch-startup-image-640x1096.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)"> <!-- iPhone 5+ -->
+  <link rel="apple-touch-startup-image" href="meta/apple-touch-startup-image-640x920.png"  media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)"> <!-- iPhone, retina -->
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="keywords" content="Play Markus Riva 2048">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
-  <meta name="format-detection" content="telephone=no" />
 
-  <meta property="og:title" content="2048 game"/>
-  <meta property="og:site_name" content="2048 game"/>
-  <meta property="og:description" content="Play Markus Riva 2048."/>
-  <meta property="og:image" content="http://gabrielecirulli.github.io/2048/meta/og_image.png"/>
-
-  <script>
+<script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -38,33 +24,30 @@
     ga('create', 'UA-69261327-1', 'auto');
     ga('send', 'pageview');
   </script>
-
+  
 </head>
 
-
 <body>
-
   <div class="container">
     <div class="heading">
-      <h1 class="title">Markus Riva 2048</h1>
-      <a class="restart-button">New Game</a>
+      <h1 class="title">2048</h1>
       <div class="scores-container">
         <div class="score-container">0</div>
         <div class="best-container">0</div>
+      </div>
     </div>
-  </div>
 
-  <div class="pre-game">
-    <p class="important">Use your <strong>arrow keys</strong> or <strong>swipe</strong> to move the tiles. When two tiles with the same picture touch, they <strong>merge into one!</strong> </p>
-  </div>
-
+    <div class="above-game">
+      <p class="game-intro"><strong>Markus Riva</strong></p>
+      <a class="restart-button">New Game</a>
+    </div>
 
     <div class="game-container">
       <div class="game-message">
         <p></p>
         <div class="lower">
-	          <a class="retry-button">Play Again</a>
-          <div class="score-sharing"></div>
+	        <a class="keep-playing-button">Keep going</a>
+          <a class="retry-button">Try again</a>
         </div>
       </div>
 
@@ -99,8 +82,11 @@
 
       </div>
     </div>
-    <br>
 
+    <p class="game-explanation">
+      <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> or <strong>swipe</strong> to move the tiles. When two tiles with the same picture touch, they <strong>merge into one!</strong>
+    </p>
+    <hr>
     <a href="https://geo.itunes.apple.com/lv/album/ty-vlublena/id1132204246?i=1132204442&at=1000l9mJ&mt=1&app=music" target="_blank" onclick="$dc.loadMenuCategories();">
         <img src="images/mritunes.png" class="mritunes" alt="Responsive image" rel="nofollow" title="Download on iTunes">
     </a>
@@ -198,7 +184,7 @@
         <img src="images/spotify-32.png" class="img-responsive" alt="Responsive image" rel="nofollow" title="Listen Markus Riva on Spotify">
         </a>
         </div>
-        <div class="amazon_mr"><a href="https://www.amazon.com/s/ref=ntt_srch_drd_B004FL96GO?ie=UTF8&field-keywords=Markus%20Riva&index=digital-music&search-type=ss&_encoding=UTF8&tag=rakabinebug0a-20&linkCode=ur2&linkId=ab8542a74c28513c4c881d52a1ae55d5&camp=1789&creative=9325"target="_blank" onclick="$dc.loadMenuCategories();">
+        <div class="amazon_mr"><a href="https://www.amazon.com/s/ref=ntt_srch_drd_B004FL96GO?ie=UTF8&field-keywords=Markus%20Riva&index=digital-music&search-type=ss&_encoding=UTF8&tag=rakabinebug0a-20&linkCode=ur2&linkId=ab8542a74c28513c4c881d52a1ae55d5&camp=1789&creative=9325" target="_blank" onclick="$dc.loadMenuCategories();">
         <img src="images/amazon-32.png" class="img-responsive" alt="Responsive image" rel="nofollow" title="Listen Markus Riva on Amazon">
         </a>
         </div>
@@ -228,29 +214,21 @@
           </div>
         </div> 
       </div>
-
-    <br>
-   
+    <hr>
+    <p class="modification">
+    This is a modification of the <a href="http://gabrielecirulli.github.io/2048/" target="_blank">game</a> created by Gabriele Cirulli.
+    </p>
   </div>
 
-<footer>
-      <p>
-      This is a modification of the <a href="http://gabrielecirulli.github.io/2048/" target="_blank">game</a> created by Gabriele Cirulli.
-      </p>
-    </footer>
-  
-
-  <script src="js/martindiena/bind_polyfill.js"></script>
-  <script src="js/martindiena/classlist_polyfill.js"></script>
-  <script src="js/martindiena/animframe_polyfill.js"></script>
-  <script src="js/martindiena/keyboard_input_manager.js"></script>
-  <script src="js/martindiena/html_actuator.js"></script>
-  <script src="js/martindiena/grid.js"></script>
-  <script src="js/martindiena/tile.js"></script>
-  <script src="js/martindiena/local_storage_manager.js"></script>
-  <script src="js/martindiena/game_manager.js"></script>
-  <script src="js/martindiena/application.js"></script>
-  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
- 
+  <script src="js/bind_polyfill.js"></script>
+  <script src="js/classlist_polyfill.js"></script>
+  <script src="js/animframe_polyfill.js"></script>
+  <script src="js/keyboard_input_manager.js"></script>
+  <script src="js/html_actuator.js"></script>
+  <script src="js/grid.js"></script>
+  <script src="js/tile.js"></script>
+  <script src="js/local_storage_manager.js"></script>
+  <script src="js/game_manager.js"></script>
+  <script src="js/application.js"></script>
 </body>
 </html>

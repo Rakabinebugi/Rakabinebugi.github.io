@@ -3,7 +3,8 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #e8c8c8;
+  background : url("../images/M102b.jpg") center center no-repeat fixed;
+  background-size : cover;
   color: #380110;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-family: "Whitney SSm A","Whitney SSm B","Helvetica Neue",Helvetica,Arial,sans-serif;
