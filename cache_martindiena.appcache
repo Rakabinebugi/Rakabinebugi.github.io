@@ -1,0 +1,101 @@
+CACHE MANIFEST
+
+# Adds the ability to play the game online.
+# The following comment needs to be updated whenever a change is made.
+# Run `rake appcache:update` to do so
+# Updated: 2016-12-09 T 22:04
+
+# Main page
+index.html
+martindiena.html
+
+# CSS
+style/main.css
+style/martindiena.css
+
+#tile-sets
+tile-sets/MR/2.jpg
+tile-sets/MR/4.jpg
+tile-sets/MR/8.jpg
+tile-sets/MR/16.jpg
+tile-sets/MR/32.jpg
+tile-sets/MR/64.jpg
+tile-sets/MR/128.jpg
+tile-sets/MR/256.jpg
+tile-sets/MR/512.jpg
+tile-sets/MR/1024.jpg
+tile-sets/MR/2048.jpg
+
+tile-sets/Martindiena/2.jpg
+tile-sets/Martindiena/4.jpg
+tile-sets/Martindiena/8.jpg
+tile-sets/Martindiena/16.jpg
+tile-sets/Martindiena/32.jpg
+tile-sets/Martindiena/64.jpg
+tile-sets/Martindiena/128.jpg
+tile-sets/Martindiena/256.jpg
+tile-sets/Martindiena/512.jpg
+tile-sets/Martindiena/1024.jpg
+tile-sets/Martindiena/2048.jpg
+
+# Fonts
+style/fonts/clear-sans.css
+style/fonts/ClearSans-Bold-webfont.eot
+style/fonts/ClearSans-Bold-webfont.svg
+style/fonts/ClearSans-Bold-webfont.woff
+style/fonts/ClearSans-Light-webfont.eot
+style/fonts/ClearSans-Light-webfont.svg
+style/fonts/ClearSans-Light-webfont.woff
+style/fonts/ClearSans-Regular-webfont.eot
+style/fonts/ClearSans-Regular-webfont.svg
+style/fonts/ClearSans-Regular-webfont.woff
+
+# Other resources
+meta/apple-touch-icon.png
+meta/icon_bitcoin.svg
+meta/icon_pp.svg
+meta/og_image.png
+meta/Martindiena.png
+
+# JavaScript
+js/animframe_polyfill.js
+js/application.js
+js/bind_polyfill.js
+js/classlist_polyfill.js
+js/game_manager.js
+js/grid.js
+js/html_actuator.js
+js/keyboard_input_manager.js
+js/local_storage_manager.js
+js/tile.js
+
+favicon.ico
+
+#Follow pictures
+images/amazon-24.png
+images/amazon-32.png
+images/facebook-24.png
+images/facebook-32.png
+images/google_plus-24.png
+images/google_plus-32.png
+images/instagram-24.png
+images/instagram-32.png
+images/itunes-24.png
+images/itunes-32.png
+images/youtube-24.png
+images/youtube-32.png
+images/soundcloud-24.png
+images/soundcloud-32.png
+images/spotify-24.png
+images/spotify-32.png
+images/twitter-24.png
+images/twitter-32.png
+images/vkontakte-24.png
+images/vkontakte-32.png
+images/mritunessmall.png
+images/mritunes.png
+
+images/MR2b.jpg
+
+NETWORK:
+*
