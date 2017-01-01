@@ -3,15 +3,13 @@ CACHE MANIFEST
 # Adds the ability to play the game online.
 # The following comment needs to be updated whenever a change is made.
 # Run `rake appcache:update` to do so
-# Updated: 2016-12-09 T 22:04
+# Updated: 2017-01-01 T 21:24
 
 # Main page
 index.html
-martindiena.html
 
 # CSS
 style/main.css
-style/martindiena.css
 
 #tile-sets
 tile-sets/MR/2.jpg
@@ -25,18 +23,8 @@ tile-sets/MR/256.jpg
 tile-sets/MR/512.jpg
 tile-sets/MR/1024.jpg
 tile-sets/MR/2048.jpg
+tile-sets/MR/super.jpg
 
-tile-sets/Martindiena/2.jpg
-tile-sets/Martindiena/4.jpg
-tile-sets/Martindiena/8.jpg
-tile-sets/Martindiena/16.jpg
-tile-sets/Martindiena/32.jpg
-tile-sets/Martindiena/64.jpg
-tile-sets/Martindiena/128.jpg
-tile-sets/Martindiena/256.jpg
-tile-sets/Martindiena/512.jpg
-tile-sets/Martindiena/1024.jpg
-tile-sets/Martindiena/2048.jpg
 
 # Fonts
 style/fonts/clear-sans.css
@@ -55,7 +43,6 @@ meta/apple-touch-icon.png
 meta/icon_bitcoin.svg
 meta/icon_pp.svg
 meta/og_image.png
-meta/Martindiena.png
 
 # JavaScript
 js/animframe_polyfill.js
