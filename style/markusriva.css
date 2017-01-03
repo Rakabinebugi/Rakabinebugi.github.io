@@ -852,29 +852,28 @@ hr {
     }
   .follow_sites_big {
     display : none; }
-    }
   .listen_markus {
-  display : block;
-  font-size : 15px;
-  line-height : 24px;
-  float : left;
+    display : block;
+    font-size : 15px;
+    line-height : 24px;
+    float : left;
+    }
+  .listen_sites_small {
+    display : block;
+    float : right;
+    line-height : 24px;
+    }
+  .listen_mr {
+    height : 24px;
+    margin-bottom : 20px;
+    margin-top : 20px;
+    display : block;
+    }
+  .itunes, .youtube, .soundcloud, .spotify, .amazon {
+    display : inline-block;
+    margin-left: 0;
+    }
+  .listen_sites_big {
+    display : none;
+    }
   }
-.listen_sites_small {
-  display : block;
-  float : right;
-  line-height : 24px;
-  }
-.listen_mr {
-  height : 24px;
-  margin-bottom : 20px;
-  margin-top : 20px;
-  display : block;
-  }
-.itunes, .youtube, .soundcloud, .spotify, .amazon {
-  display : inline-block;
-  margin-left: 0;
-  }
-.listen_sites_big {
-  display : none;
-  }
-}
