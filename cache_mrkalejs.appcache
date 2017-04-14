@@ -1,0 +1,68 @@
+CACHE MANIFEST
+
+# Adds the ability to play the game online.
+# The following comment needs to be updated whenever a change is made.
+# Run `rake appcache:update` to do so
+# Updated: 2017-04-14 T 22:50
+
+# Main page
+mrkalejs.html
+
+# CSS
+style/mrkalejs.css
+
+#tile-sets
+tile-sets/mrKalejs/2.jpg
+tile-sets/mrKalejs/4.jpg
+tile-sets/mrKalejs/8.jpg
+tile-sets/mrKalejs/16.jpg
+tile-sets/mrKalejs/32.jpg
+tile-sets/mrKalejs/64.jpg
+tile-sets/mrKalejs/128.jpg
+tile-sets/mrKalejs/256.jpg
+tile-sets/mrKalejs/512.jpg
+tile-sets/mrKalejs/1024.jpg
+tile-sets/mrKalejs/2048.jpg
+tile-sets/mrKalejs/super.jpg
+
+
+# Fonts
+style/fonts/clear-sans.css
+style/fonts/ClearSans-Bold-webfont.eot
+style/fonts/ClearSans-Bold-webfont.svg
+style/fonts/ClearSans-Bold-webfont.woff
+style/fonts/ClearSans-Light-webfont.eot
+style/fonts/ClearSans-Light-webfont.svg
+style/fonts/ClearSans-Light-webfont.woff
+style/fonts/ClearSans-Regular-webfont.eot
+style/fonts/ClearSans-Regular-webfont.svg
+style/fonts/ClearSans-Regular-webfont.woff
+
+# Other resources
+meta/mrkalejs.jpg
+
+# JavaScript
+js/animframe_polyfill.js
+js/application.js
+js/bind_polyfill.js
+js/classlist_polyfill.js
+js/game_manager.js
+js/grid.js
+js/html_actuator.js
+js/keyboard_input_manager.js
+js/local_storage_manager.js
+js/tile.js
+
+favicon.ico
+
+#Follow pictures
+images/facebook-24.png
+images/facebook-32.png
+images/instagram-24.png
+images/instagram-32.png
+
+images/a2b.jpg
+
+
+NETWORK:
+*
