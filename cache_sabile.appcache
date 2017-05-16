@@ -1,0 +1,72 @@
+CACHE MANIFEST
+
+# Adds the ability to play the game online.
+# The following comment needs to be updated whenever a change is made.
+# Run `rake appcache:update` to do so
+# Updated: 2017-16-05 T 21:59
+
+# Main page
+sabile.html
+
+# CSS
+style/sabile.css
+
+#tile-sets
+tile-sets/Sabile/2.jpg
+tile-sets/Sabile/4.jpg
+tile-sets/Sabile/8.jpg
+tile-sets/Sabile/16.jpg
+tile-sets/Sabile/32.jpg
+tile-sets/Sabile/64.jpg
+tile-sets/Sabile/128.jpg
+tile-sets/Sabile/256.jpg
+tile-sets/Sabile/512.jpg
+tile-sets/Sabile/1024.jpg
+tile-sets/Sabile/2048.jpg
+tile-sets/Sabile/super.jpg
+
+# Fonts
+style/fonts/clear-sans.css
+style/fonts/ClearSans-Bold-webfont.eot
+style/fonts/ClearSans-Bold-webfont.svg
+style/fonts/ClearSans-Bold-webfont.woff
+style/fonts/ClearSans-Light-webfont.eot
+style/fonts/ClearSans-Light-webfont.svg
+style/fonts/ClearSans-Light-webfont.woff
+style/fonts/ClearSans-Regular-webfont.eot
+style/fonts/ClearSans-Regular-webfont.svg
+style/fonts/ClearSans-Regular-webfont.woff
+
+# Other resources
+meta/sabile.jpg
+
+# JavaScript
+js/animframe_polyfill.js
+js/application.js
+js/bind_polyfill.js
+js/classlist_polyfill.js
+js/game_manager.js
+js/grid.js
+js/html_actuator.js
+js/keyboard_input_manager.js
+js/local_storage_manager.js
+js/tile.js
+
+favicon.ico
+
+#Follow pictures
+images/facebook-24.png
+images/facebook-32.png
+images/instagram-24.png
+images/instagram-32.png
+images/twitter-24.png
+images/twitter-32.png
+images/sabile-24.jpg
+images/sabile-32.ico
+images/mritunessmall.png
+images/mritunes.png
+
+images/sabile2b.jpg
+
+NETWORK:
+*
