@@ -3,7 +3,7 @@ CACHE MANIFEST
 # Adds the ability to play the game online.
 # The following comment needs to be updated whenever a change is made.
 # Run `rake appcache:update` to do so
-# Updated: 2017-16-05 T 21:59
+# Updated: 2017-16-05 T 22:18
 
 # Main page
 sabile.html
@@ -61,7 +61,7 @@ images/instagram-24.png
 images/instagram-32.png
 images/twitter-24.png
 images/twitter-32.png
-images/sabile-24.jpg
+images/sabile-24.ico
 images/sabile-32.ico
 images/mritunessmall.png
 images/mritunes.png
