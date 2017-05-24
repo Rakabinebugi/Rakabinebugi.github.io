@@ -1,0 +1,68 @@
+CACHE MANIFEST
+
+# Adds the ability to play the game online.
+# The following comment needs to be updated whenever a change is made.
+# Run `rake appcache:update` to do so
+# Updated: 2017-24-05 T 22:05
+
+# Main page
+barons.html
+
+# CSS
+style/barons.css
+
+#tile-sets
+tile-sets/Barons/2.jpg
+tile-sets/Barons/4.jpg
+tile-sets/Barons/8.jpg
+tile-sets/Barons/16.jpg
+tile-sets/Barons/32.jpg
+tile-sets/Barons/64.jpg
+tile-sets/Barons/128.jpg
+tile-sets/Barons/256.jpg
+tile-sets/Barons/512.jpg
+tile-sets/Barons/1024.jpg
+tile-sets/Barons/2048.jpg
+tile-sets/Barons/super.jpg
+
+
+# Fonts
+style/fonts/clear-sans.css
+style/fonts/ClearSans-Bold-webfont.eot
+style/fonts/ClearSans-Bold-webfont.svg
+style/fonts/ClearSans-Bold-webfont.woff
+style/fonts/ClearSans-Light-webfont.eot
+style/fonts/ClearSans-Light-webfont.svg
+style/fonts/ClearSans-Light-webfont.woff
+style/fonts/ClearSans-Regular-webfont.eot
+style/fonts/ClearSans-Regular-webfont.svg
+style/fonts/ClearSans-Regular-webfont.woff
+
+# Other resources
+meta/barons.jpg
+
+# JavaScript
+js/animframe_polyfill.js
+js/application.js
+js/bind_polyfill.js
+js/classlist_polyfill.js
+js/game_manager.js
+js/grid.js
+js/html_actuator.js
+js/keyboard_input_manager.js
+js/local_storage_manager.js
+js/tile.js
+
+favicon.ico
+
+#Follow pictures
+images/facebook-24.png
+images/facebook-32.png
+images/instagram-24.png
+images/instagram-32.png
+
+images/barons2b.jpg
+
+
+NETWORK:
+*
