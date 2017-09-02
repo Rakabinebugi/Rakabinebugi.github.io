@@ -2,26 +2,84 @@
 html, body {
   margin: 0;
   padding: 0;
-  background : url("../images/MR2b.jpg") center center no-repeat fixed;
+  background: url("../images/MR2b.jpg") center center no-repeat fixed;
   background-size : cover;
-  color : #1f1f1f;
+  color: #1f1f1f;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
-  font-size: 18px; }
+  font-size: 18px;
+}
 
-body {
-  margin: 80px 0; }
+  /* Add a white background color to the top navigation */
+.topnav {
+  background-color: #ffffff;
+  overflow: hidden;
+  border-bottom: 1px solid #35001d;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  font-family: 'Roboto', sans-serif;
+  color: #35001d;
+  text-align: center;
+  padding: 17px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  display: inline-block;
+}
+
+.topnavmenu .order, .facebook-r {
+  float: right;
+}
+
+.topnavmenu .facebook-r {
+  padding: 12px 30px 12px 16px;
+}
+
+.topnavmenu .order {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #840F55;
+  padding: 10px;
+  margin-top: 5px;
+  margin-right: 16px;
+}
+
+.topnavlogo .logo {
+  font-family: 'Permanent Marker', cursive;
+  float: left;
+  color: #840F55;
+  font-size: 30px;
+  padding: 4px 25px;
+  text-decoration: none;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: #840F55;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+.heading {
+  margin-top: 20px;
+}
 
 .heading:after {
   content: "";
   display: block;
-  clear: both; }
+  clear: both;
+}
 
 h1.title {
   font-size: 60px;
   font-weight: bold;
   margin: 0;
   display: block;
-  float: left; }
+  float: left;
+}
 
 @-webkit-keyframes move-up {
   0% {
@@ -596,16 +654,49 @@ hr {
   }
 
 @media screen and (max-width: 520px) {
+  /* When the screen is less than 755 pixels wide, hide all links, except for the first one ("Facebook").
+  Show the link that contains should open and close the topnav (.icon) */
+  .topnavmenu a:not(:first-child) {display: none;}
+  .topnavmenu a.icon {
+    float: right;
+    display: block;
+  }
+
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon.
+  This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  .topnavmenu.responsive {position: relative;}
+  .topnavmenu.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnavmenu.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+
+  .topnavmenu a {
+    font-size: 14px;
+  }
+
+  .topnavmenu .order {
+    margin: 0px;
+  }
+
+}
+
+@media screen and (max-width: 520px) {
   html, body {
     font-size: 15px; }
-
-  body {
-    margin: 20px 0;
-    padding: 0 20px; }
 
   h1.title {
     font-size: 30px;
     margin-top: 15px; }
+
+  .topnavlogo .logo {
+    font-size: 26px;
+  }
 
   .container {
     width: 280px;
@@ -877,3 +968,4 @@ hr {
     display : none;
     }
   }
+}
