@@ -696,6 +696,11 @@ hr {
 
   .topnavlogo .logo {
     font-size: 26px;
+    padding: 7px 10px;
+  }
+
+  .topnavmenu .facebook-r {
+    padding: 12px 10px 12px 10px;
   }
 
   .container {
