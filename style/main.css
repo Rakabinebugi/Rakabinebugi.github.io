@@ -2,9 +2,9 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: url("../images/MR2b.jpg") center center no-repeat fixed;
+  background: url("../images/Rakabinebugi2b.jpg") center center no-repeat fixed;
   background-size : cover;
-  color: #1f1f1f;
+  color: #35001d;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px;
 }
@@ -32,7 +32,7 @@ html, body {
 }
 
 .topnavmenu .facebook-r {
-  padding: 12px 30px 12px 16px;
+  padding: 14px 30px 10px 16px;
 }
 
 .topnavmenu .order {
@@ -112,7 +112,7 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #2c2e29;
+  background: #35001d;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
@@ -170,7 +170,7 @@ strong.important {
 
 hr {
   border: none;
-  border-bottom: 1px solid #2c2e29;
+  border-bottom: 1px solid #35001d;
   margin-top: 20px;
   margin-bottom: 20px; }
 
@@ -208,7 +208,7 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #2c2e29;
+  background: #35001d;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -388,69 +388,69 @@ hr {
     z-index: 10;
     font-size: 55px; }
   .tile.tile-2 .tile-inner {
-  background : url('../tile-sets/MR/2.jpg');
+  background : url('../tile-sets/Rakabinebugi/2.jpg');
   background-size : 100%;
   color : rgba(0, 0, 0, 0);
   box-shadow : 0 0 30px 10px rgba(243, 215, 116, 0), 0 0 0 1px rgba(255, 255, 255, 0) inset;
   }
   .tile.tile-4 .tile-inner {
-  background : url('../tile-sets/MR/4.jpg');
+  background : url('../tile-sets/Rakabinebugi/4.jpg');
   background-size : 100%;
   color : rgba(0, 0, 0, 0);
   box-shadow : 0 0 30px 10px rgba(243, 215, 116, 0), 0 0 0 1px rgba(255, 255, 255, 0) inset;
   }
   .tile.tile-8 .tile-inner {
-  background : url('../tile-sets/MR/8.jpg');
+  background : url('../tile-sets/Rakabinebugi/8.jpg');
   background-size : 100%;
   color : rgba(0, 0, 0, 0);
   }
   .tile.tile-16 .tile-inner {
-  background : url('../tile-sets/MR/16.jpg');
+  background : url('../tile-sets/Rakabinebugi/16.jpg');
   background-size : 100%;
   color : rgba(0, 0, 0, 0);
   }
   .tile.tile-32 .tile-inner {
-  background : url('../tile-sets/MR/32.jpg');
+  background : url('../tile-sets/Rakabinebugi/32.jpg');
   background-size : 100%;
   color : rgba(0, 0, 0, 0);
   }
   .tile.tile-64 .tile-inner {
-  background : url('../tile-sets/MR/64.jpg');
+  background : url('../tile-sets/Rakabinebugi/64.jpg');
   background-size : 100%;
   color : rgba(0, 0, 0, 0);
   }
   .tile.tile-128 .tile-inner {
-  background : url('../tile-sets/MR/128.jpg');
+  background : url('../tile-sets/Rakabinebugi/128.jpg');
   background-size : 100%;
   color : rgba(0, 0, 0, 0);
   box-shadow : 0 0 30px 10px rgba(243, 215, 116, 0.2381), 0 0 0 1px rgba(255, 255, 255, 0.14286) inset;
   }
   .tile.tile-256 .tile-inner {
-  background : url('../tile-sets/MR/256.jpg');
+  background : url('../tile-sets/Rakabinebugi/256.jpg');
   background-size : 100%;
   color : rgba(0, 0, 0, 0);
   box-shadow : 0 0 30px 10px rgba(243, 215, 116, 0.31746), 0 0 0 1px rgba(255, 255, 255, 0.19048) inset;
   }
   .tile.tile-512 .tile-inner {
-  background : url('../tile-sets/MR/512.jpg');
+  background : url('../tile-sets/Rakabinebugi/512.jpg');
   background-size : 100%;
   color : rgba(0, 0, 0, 0);
   box-shadow : 0 0 30px 10px rgba(243, 215, 116, 0.39683), 0 0 0 1px rgba(255, 255, 255, 0.2381) inset;
   }
   .tile.tile-1024 .tile-inner {
-  background : url('../tile-sets/MR/1024.jpg');
+  background : url('../tile-sets/Rakabinebugi/1024.jpg');
   background-size : 100%;
   color : rgba(0, 0, 0, 0);
   box-shadow : 0 0 30px 10px rgba(243, 215, 116, 0.47619), 0 0 0 1px rgba(255, 255, 255, 0.28571) inset;
   }
   .tile.tile-2048 .tile-inner {
-  background : url('../tile-sets/MR/2048.jpg');
+  background : url('../tile-sets/Rakabinebugi/2048.jpg');
   background-size : 100%;
   color : rgba(0, 0, 0, 0);
   box-shadow : 0 0 30px 10px rgba(243, 215, 116, 0.55556), 0 0 0 1px rgba(255, 255, 255, 0.33333) inset;
   }
   .tile.tile-super .tile-inner {
-  background : url('../tile-sets/MR/super.jpg');
+  background : url('../tile-sets/Rakabinebugi/super.jpg');
   background-size : 100%;
   color : rgba(0, 0, 0, 0);
   }
@@ -581,7 +581,7 @@ hr {
 
 .restart-button {
   display: inline-block;
-  background: #2c2e29;
+  background: #35001d;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
@@ -602,54 +602,6 @@ hr {
   text-align : center;
   }
 .mritunessmall {
-  display : none;
-  }
-.follow_markus {
-  display : block;
-  font-size : 20px;
-  line-height : 32px;
-  float : left;
-  }
-.follow_sites_big {
-  display : block;
-  float : right;
-  line-height : 32px;
-  }
-.follow_mr {
-  height : 32px;
-  margin-bottom : 10px;
-  margin-top : 10px;
-  display : block;
-  }
-.facebook, .instagram, .twitter, .vkontakte, .googleplus {
-  display : inline-block;
-  margin-left: 5px;
-  }
-.follow_sites_small {
-  display : none;
-  }
-.listen_markus {
-  display : block;
-  font-size : 20px;
-  line-height : 32px;
-  float : left;
-  }
-.listen_sites_big {
-  display : block;
-  float : right;
-  line-height : 32px;
-  }
-.listen_mr {
-  height : 32px;
-  margin-bottom : 20px;
-  margin-top : 20px;
-  display : block;
-  }
-.itunes, .youtube, .soundcloud, .spotify, .amazon {
-  display : inline-block;
-  margin-left: 5px;
-  }
-.listen_sites_small {
   display : none;
   }
 
@@ -700,7 +652,7 @@ hr {
   }
 
   .topnavmenu .facebook-r {
-    padding: 13px 10px 11px 10px;
+    padding: 14px 10px 11px 10px;
   }
 
   .container {
@@ -720,7 +672,7 @@ hr {
     display: block;
     box-sizing: border-box;
     line-height: 1.65;
-    font-size : 26px; }
+    font-size : 25px; }
 
   .game-explanation, .modification {
     font-size : 9px; }
@@ -923,54 +875,6 @@ hr {
     }
   .mritunessmall {
     display : block;
-    }
-
-  .follow_markus {
-    display : block;
-    font-size : 15px;
-    line-height : 24px;
-    float : left;
-    }
-  .follow_sites_small {
-    display : block;
-    float : right;
-    line-height : 24px;
-    }
-  .follow_mr {
-    height : 24px;
-    margin-bottom : 10px;
-    margin-top : 10px;
-    display : block;
-    }
-  .facebook, .instagram, .twitter, .vkontakte, .googleplus {
-    display : inline-block;
-    margin-left: 0;
-    }
-  .follow_sites_big {
-    display : none; }
-  .listen_markus {
-    display : block;
-    font-size : 15px;
-    line-height : 24px;
-    float : left;
-    }
-  .listen_sites_small {
-    display : block;
-    float : right;
-    line-height : 24px;
-    }
-  .listen_mr {
-    height : 24px;
-    margin-bottom : 20px;
-    margin-top : 20px;
-    display : block;
-    }
-  .itunes, .youtube, .soundcloud, .spotify, .amazon {
-    display : inline-block;
-    margin-left: 0;
-    }
-  .listen_sites_big {
-    display : none;
-    }
   }
+  
 }
