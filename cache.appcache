@@ -3,7 +3,7 @@ CACHE MANIFEST
 # Adds the ability to play the game online.
 # The following comment needs to be updated whenever a change is made.
 # Run `rake appcache:update` to do so
-# Updated: 2017-09-05 T 22:24
+# Updated: 2017-09-05 T 22:31
 
 # Main page
 index.html
@@ -12,18 +12,18 @@ index.html
 style/main.css
 
 #tile-sets
-tile-sets/MR/2.jpg
-tile-sets/MR/4.jpg
-tile-sets/MR/8.jpg
-tile-sets/MR/16.jpg
-tile-sets/MR/32.jpg
-tile-sets/MR/64.jpg
-tile-sets/MR/128.jpg
-tile-sets/MR/256.jpg
-tile-sets/MR/512.jpg
-tile-sets/MR/1024.jpg
-tile-sets/MR/2048.jpg
-tile-sets/MR/super.jpg
+tile-sets/Rakabinebugi/2.jpg
+tile-sets/Rakabinebugi/4.jpg
+tile-sets/Rakabinebugi/8.jpg
+tile-sets/Rakabinebugi/16.jpg
+tile-sets/Rakabinebugi/32.jpg
+tile-sets/Rakabinebugi/64.jpg
+tile-sets/Rakabinebugi/128.jpg
+tile-sets/Rakabinebugi/256.jpg
+tile-sets/Rakabinebugi/512.jpg
+tile-sets/Rakabinebugi/1024.jpg
+tile-sets/Rakabinebugi/2048.jpg
+tile-sets/Rakabinebugi/super.jpg
 
 
 # Fonts
@@ -39,10 +39,8 @@ style/fonts/ClearSans-Regular-webfont.svg
 style/fonts/ClearSans-Regular-webfont.woff
 
 # Other resources
-meta/apple-touch-icon.png
-meta/icon_bitcoin.svg
-meta/icon_pp.svg
-meta/og_image.png
+meta/rakabinebugi.png
+
 
 # JavaScript
 js/animframe_polyfill.js
@@ -59,31 +57,10 @@ js/tile.js
 favicon.ico
 
 #Follow pictures
-images/amazon-24.png
-images/amazon-32.png
-images/facebook-24.png
-images/facebook-32.png
 images/facebook-r-32.png
-images/google_plus-24.png
-images/google_plus-32.png
-images/instagram-24.png
-images/instagram-32.png
-images/itunes-24.png
-images/itunes-32.png
-images/youtube-24.png
-images/youtube-32.png
-images/soundcloud-24.png
-images/soundcloud-32.png
-images/spotify-24.png
-images/spotify-32.png
-images/twitter-24.png
-images/twitter-32.png
-images/vkontakte-24.png
-images/vkontakte-32.png
-images/mritunessmall.png
-images/mritunes.png
 
-images/MR2b.jpg
+
+images/Rakabinebugi2b.jpg
 
 NETWORK:
 *
