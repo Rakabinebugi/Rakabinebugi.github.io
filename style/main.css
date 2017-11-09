@@ -608,8 +608,8 @@ hr {
   display : none;
   }
 
-@media screen and (max-width: 520px) {
-  /* When the screen is less than 755 pixels wide, hide all links, except for the first one ("Facebook").
+@media screen and (max-width: 410px) {
+  /* When the screen is less than 410 pixels wide, hide all links, except for the first one ("Facebook").
   Show the link that contains should open and close the topnav (.icon) */
   .topnavmenu a:not(:first-child) {display: none;}
   .topnavmenu a.icon {
@@ -634,6 +634,19 @@ hr {
   .topnavmenu a {
     font-size: 14px;
   }
+
+  .icon {
+    margin-right: 10px;
+  }
+
+  .topnavmenu .order {
+  border-style: none;
+  border-top: solid;
+  border-width: 2px;
+  border-color: #840F55;
+  margin-top: 20px;
+  margin-right: 0px;
+}
 
 }
 
