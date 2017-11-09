@@ -40,8 +40,8 @@ html, body {
   border-width: 2px;
   border-color: #840F55;
   padding: 10px;
-  margin-top: 12px;
-  margin-right: 16px;
+  margin-top: 14px;
+  margin-right: 35px;
 }
 
 .topnavlogo .logo {
@@ -608,7 +608,7 @@ hr {
   display : none;
   }
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 425px) {
   /* When the screen is less than 410 pixels wide, hide all links, except for the first one ("Facebook").
   Show the link that contains should open and close the topnav (.icon) */
   .topnavmenu a:not(:first-child) {display: none;}
