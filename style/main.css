@@ -2,7 +2,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: url("../images/Rakabinebugi2b.jpg") center center no-repeat fixed;
+  background: url("../images/2Rakabinebugi2b.jpg") center center no-repeat fixed;
   background-size : cover;
   color: #1f1f1f;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
@@ -40,7 +40,7 @@ html, body {
   border-width: 2px;
   border-color: #840F55;
   padding: 10px;
-  margin-top: 5px;
+  margin-top: 12px;
   margin-right: 16px;
 }
 
@@ -49,7 +49,7 @@ html, body {
   float: left;
   color: #840F55;
   font-size: 30px;
-  padding: 4px 25px;
+  padding: 12px 25px;
   text-decoration: none;
 }
 
@@ -161,9 +161,12 @@ p {
 
 a {
   color: #776e65;
-  font-weight: bold;
   text-decoration: underline;
   cursor: pointer; }
+
+.restart-button, .order{
+  font-weight: bold;
+}
 
 strong.important {
   text-transform: uppercase; }
@@ -632,10 +635,6 @@ hr {
     font-size: 14px;
   }
 
-  .topnavmenu .order {
-    margin: 0px;
-  }
-
 }
 
 @media screen and (max-width: 520px) {
@@ -648,7 +647,6 @@ hr {
 
   .topnavlogo .logo {
     font-size: 26px;
-    padding: 7px 10px;
   }
 
   .topnavmenu .facebook-r {
