@@ -3,28 +3,24 @@ CACHE MANIFEST
 # Adds the ability to play the game online.
 # The following comment needs to be updated whenever a change is made.
 # Run `rake appcache:update` to do so
-# Updated: 2017-11-24 T 00:40
+# Updated: 2017-11-24 T 00:45
 
 # Main page
-barons.html
+more2048.html
 
 # CSS
-style/barons.css
+style/more2048.css
 style/navbar.css
 
+
 #tile-sets
+tile-sets/Rakabinebugi/2.jpg
+tile-sets/MR/2.jpg
+tile-sets/Akmenlauzis/2.jpg
+tile-sets/Sabile/2.jpg
 tile-sets/Barons/2.jpg
-tile-sets/Barons/4.jpg
-tile-sets/Barons/8.jpg
-tile-sets/Barons/16.jpg
-tile-sets/Barons/32.jpg
-tile-sets/Barons/64.jpg
-tile-sets/Barons/128.jpg
-tile-sets/Barons/256.jpg
-tile-sets/Barons/512.jpg
-tile-sets/Barons/1024.jpg
-tile-sets/Barons/2048.jpg
-tile-sets/Barons/super.jpg
+tile-sets/mrKalejs/2.jpg
+tile-sets/Martindiena/2.jpg
 
 
 # Fonts
@@ -40,7 +36,8 @@ style/fonts/ClearSans-Regular-webfont.svg
 style/fonts/ClearSans-Regular-webfont.woff
 
 # Other resources
-meta/barons.jpg
+meta/rakabinebugi.png
+
 
 # JavaScript
 js/animframe_polyfill.js
@@ -56,14 +53,7 @@ js/tile.js
 
 favicon.ico
 
-#Follow pictures
-images/facebook-24.png
-images/facebook-32.png
-images/instagram-24.png
-images/instagram-32.png
-
-images/barons2b.jpg
-
+images/more20482b.jpg
 
 NETWORK:
 *

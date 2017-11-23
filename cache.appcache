@@ -3,13 +3,15 @@ CACHE MANIFEST
 # Adds the ability to play the game online.
 # The following comment needs to be updated whenever a change is made.
 # Run `rake appcache:update` to do so
-# Updated: 2017-11-09 T 23:25
+# Updated: 2017-11-24 T 00:39
 
 # Main page
 index.html
 
 # CSS
 style/main.css
+style/navbar.css
+
 
 #tile-sets
 tile-sets/Rakabinebugi/2.jpg

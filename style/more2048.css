@@ -1,0 +1,139 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: url("../images/more20482b.jpg") center center no-repeat fixed;
+  background-size : cover;
+  color: #1f1f1f;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+ 
+.heading {
+  margin-top: 20px;
+}
+
+.heading:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+h1.title {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0 0 20px 0;
+  display: block;
+  text-align: center;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: 1.65; }
+
+a {
+  color: #776e65;
+  text-decoration: underline;
+  cursor: pointer; }
+
+strong.important {
+  text-transform: uppercase; }
+
+hr {
+  border: none;
+  border-bottom: 1px solid #2c2e29;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.container {
+	width: 90%;
+	margin: 0 auto; }
+
+.game-explanation {
+	width: 90%;
+	margin: auto;
+	font-size: 17px; }
+
+.modification {
+  margin-top : 10px;
+  font-size : 12px;
+  text-align : center;
+  }
+
+.mritunes {
+ 	display: block;
+ 	margin: auto;
+ 	width: 60%;
+}
+
+.more2048 {
+	display: block;
+	width: 160px;
+	height: 160px;
+	margin: auto;
+ }
+
+ .more-title {
+ 	text-align: center;
+ }
+
+ .container-game {
+  	margin: 0 5px 25px 5px;
+}
+
+.container-games {
+	display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+}
+
+@media screen and (max-width: 860px) {
+
+  .more2048 {
+  width: 130px;
+  height: 130px;
+ }
+
+ .more-title{
+  font-size: 15px;
+ }
+
+	.mritunes {
+ 		width: 70%;
+	}
+}
+
+@media screen and (max-width: 635px) {
+
+	.container-game {
+  		margin: 0 5px 10px 5px;
+	}
+
+  .more2048 {
+  width: 120px;
+  height: 120px;
+ }
+
+	.mritunes {
+ 		width: 90%;
+	}
+
+  .game-explanation {
+  font-size: 12px; }
+}
+
+@media screen and (max-width: 535px) {
+	
+	h1.title {
+	    font-size: 24px;
+	    margin: 15px 0 15px 0;
+	}
+  
+  .more2048 {
+  width: 100px;
+  height: 100px;
+ }
+
+}

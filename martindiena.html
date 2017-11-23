@@ -5,6 +5,9 @@
   <title>Mārtiņdienas cepetis 2048</title>
 
   <link href="style/martindiena.css" rel="stylesheet" type="text/css">
+  <link href="style/navbar.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="apple-touch-icon" href="meta/Martindiena.png">
   <link rel="apple-touch-startup-image" href="meta/apple-touch-startup-image-640x1096.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)"> <!-- iPhone 5+ -->
@@ -29,6 +32,19 @@
 </head>
 
 <body>
+
+  <div class="topnav">
+    <div class="topnavlogo">
+      <a href="index.html" class="logo">Rakabinebugi</a>
+    </div>
+    <div class="topnavmenu" id="myTopnav">
+      <a href="#" class="fake"></a>
+      <a href="more2048.html" class="nav-more-2048">More 2048</a>
+      <a href="https://www.facebook.com/Rakabinebugi" class="order">Order Your game</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+  </div>
+
   <div class="container">
     <div class="heading">
       <h1 class="title">2048</h1>
@@ -118,6 +134,17 @@
     This is a modification of the <a href="http://gabrielecirulli.github.io/2048/" target="_blank">game</a> created by Gabriele Cirulli.
     </p>
   </div>
+
+  <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnavmenu") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnavmenu";
+        }
+    }
+  </script>
 
   <script src="js/bind_polyfill.js"></script>
   <script src="js/classlist_polyfill.js"></script>
