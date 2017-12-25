@@ -550,9 +550,10 @@ hr {
   font-size : 12px;
   text-align : center;
   }
-.mritunessmall {
-  display : none;
-  }
+
+.mritunes {
+  width: 100%;
+}
 
 
 
@@ -778,12 +779,5 @@ hr {
     margin-top: 90px !important; }
   .game-message .lower {
     margin-top: 30px !important; }
-
-  .mritunes {
-    display : none;
-    }
-  .mritunessmall {
-    display : block;
-  }
   
 }

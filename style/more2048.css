@@ -46,7 +46,7 @@ hr {
   margin-bottom: 20px; }
 
 .container {
-	width: 90%;
+	width: 70%;
 	margin: 0 auto; }
 
 .game-explanation {
@@ -63,7 +63,7 @@ hr {
 .mritunes {
  	display: block;
  	margin: auto;
- 	width: 60%;
+ 	width: 80%;
 }
 
 .more2048 {
@@ -78,18 +78,18 @@ hr {
  }
 
  .container-game {
-  	margin: 0 5px 25px 5px;
+  	margin: 0 10px 25px 10px;
 }
 
 .container-games {
 	display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 90%;
+  width: 95%;
   margin: auto;
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 900px) {
 
   .more2048 {
   width: 130px;
@@ -100,12 +100,9 @@ hr {
   font-size: 15px;
  }
 
-	.mritunes {
- 		width: 70%;
-	}
 }
 
-@media screen and (max-width: 635px) {
+@media screen and (max-width: 677px) {
 
 	.container-game {
   		margin: 0 5px 10px 5px;
@@ -116,13 +113,13 @@ hr {
   height: 120px;
  }
 
-	.mritunes {
- 		width: 90%;
-	}
+ .container {
+  width: 80%;
+  }
 
   .game-explanation {
-  font-size: 12px; }
-}
+    font-size: 12px; }
+  }
 
 @media screen and (max-width: 535px) {
 	

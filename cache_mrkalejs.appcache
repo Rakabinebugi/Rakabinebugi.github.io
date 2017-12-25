@@ -3,7 +3,7 @@ CACHE MANIFEST
 # Adds the ability to play the game online.
 # The following comment needs to be updated whenever a change is made.
 # Run `rake appcache:update` to do so
-# Updated: 2017-11-24 T 00:43
+# Updated: 2017-12-25 T 21:56
 
 # Main page
 mrkalejs.html
@@ -63,6 +63,8 @@ images/instagram-24.png
 images/instagram-32.png
 
 images/a2b.jpg
+
+images/karma.png
 
 
 NETWORK:

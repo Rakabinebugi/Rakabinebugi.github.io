@@ -7,6 +7,7 @@
 
   <link href="style/more2048.css" rel="stylesheet" type="text/css">
   <link href="style/navbar.css" rel="stylesheet" type="text/css">
+  <link href="style/modal.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="shortcut icon" href="favicon.ico">
@@ -100,9 +101,28 @@
       <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> or <strong>swipe</strong> to move the tiles. When two tiles with the same picture touch, they <strong>merge into one!</strong>
     </p>
     <hr>
-    <a href="https://geo.itunes.apple.com/lv/album/ty-vlublena/id1132204246?i=1132204442&at=1000l9mJ&mt=1&app=music" target="_blank" onclick="$dc.loadMenuCategories();">
-        <img src="images/mritunes.png" class="mritunes" alt="Responsive image" rel="nofollow" title="Download on iTunes">
+    <a>
+        <img src="images/karma.png" id="myBtn" class="mritunes" alt="Responsive image" rel="nofollow" title="Feed Your Karma by donating">
     </a>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>Feed Your KARMA by donating</h2>
+        </div>
+        <div class="modal-body">
+          <p>BTC - 1ATysfDCue3HssXz4ufRcirPYvYvogyZuV</p>
+          <p>LTC - LgVQ5aBoPKnULqo74iSGPLcPkHqiTtqQEr</p>
+          <p>EOS - 0x3e173F4c08E767E7Fd0E96Fac1efb7b440a1E494</p>
+        </div>
+        <div class="modal-footer">
+          <h3>You are awesome. Thank You!</h3>
+        </div>
+      </div>
+    </div>
 
     <hr>
     <p class="modification">
@@ -117,6 +137,34 @@
             x.className += " responsive";
         } else {
             x.className = "topnavmenu";
+        }
+    }
+  </script>
+
+  <script>
+    // Get the modal
+    var modal = document.getElementById('myModal');
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
         }
     }
   </script>

@@ -23,6 +23,10 @@ h1.title {
   display: block;
   float: left; }
 
+.mritunes {
+  width: 100%;
+}
+
 @-webkit-keyframes move-up {
   0% {
     top: 25px;

@@ -3,7 +3,7 @@ CACHE MANIFEST
 # Adds the ability to play the game online.
 # The following comment needs to be updated whenever a change is made.
 # Run `rake appcache:update` to do so
-# Updated: 2017-11-24 T 00:39
+# Updated: 2017-12-25 T 21:56
 
 # Main page
 index.html
@@ -61,6 +61,7 @@ favicon.ico
 #Follow pictures
 images/facebook-r-32.png
 
+images/karma.png
 
 images/2Rakabinebugi2b.jpg
 
