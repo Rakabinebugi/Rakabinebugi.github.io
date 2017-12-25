@@ -56,7 +56,7 @@
 
 .modal-header {
     padding: 2px 16px;
-    color: black;
+    color: #aba8a8;
 }
 
 .modal-body {
@@ -67,7 +67,7 @@
 
 .modal-footer {
     padding: 2px 16px;
-    color: white;
+    color: #aba8a8;
     text-align: right;
 }
 
