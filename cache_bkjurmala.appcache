@@ -6,26 +6,26 @@ CACHE MANIFEST
 # Updated: 2017-12-28 T 17:30
 
 # Main page
-martindiena.html
+bkjurmala.html
 
 # CSS
-style/martindiena.css
+style/bkjurmala.css
 style/navbar.css
 style/modal.css
 
 #tile-sets
-tile-sets/Martindiena/2.jpg
-tile-sets/Martindiena/4.jpg
-tile-sets/Martindiena/8.jpg
-tile-sets/Martindiena/16.jpg
-tile-sets/Martindiena/32.jpg
-tile-sets/Martindiena/64.jpg
-tile-sets/Martindiena/128.jpg
-tile-sets/Martindiena/256.jpg
-tile-sets/Martindiena/512.jpg
-tile-sets/Martindiena/1024.jpg
-tile-sets/Martindiena/2048.jpg
-tile-sets/Martindiena/super.jpg
+tile-sets/BKJurmala/2.png
+tile-sets/BKJurmala/4.jpg
+tile-sets/BKJurmala/8.jpg
+tile-sets/BKJurmala/16.jpg
+tile-sets/BKJurmala/32.jpg
+tile-sets/BKJurmala/64.jpg
+tile-sets/BKJurmala/128.jpg
+tile-sets/BKJurmala/256.jpg
+tile-sets/BKJurmala/512.jpg
+tile-sets/BKJurmala/1024.jpg
+tile-sets/BKJurmala/2048.jpg
+tile-sets/BKJurmala/super.jpg
 
 # Fonts
 style/fonts/clear-sans.css
@@ -40,11 +40,7 @@ style/fonts/ClearSans-Regular-webfont.svg
 style/fonts/ClearSans-Regular-webfont.woff
 
 # Other resources
-meta/apple-touch-icon.png
-meta/icon_bitcoin.svg
-meta/icon_pp.svg
-meta/og_image.png
-meta/Martindiena.png
+meta/bkjurmala.png
 
 # JavaScript
 js/animframe_polyfill.js
@@ -57,6 +53,7 @@ js/html_actuator.js
 js/keyboard_input_manager.js
 js/local_storage_manager.js
 js/tile.js
+js/modal.js
 
 favicon.ico
 
@@ -65,8 +62,12 @@ images/facebook-24.png
 images/facebook-32.png
 images/instagram-24.png
 images/instagram-32.png
+images/twitter-24.png
+images/twitter-32.png
+images/bkjurmala-24.ico
+images/bkjurmala-32.ico
 
-images/M102b.jpg
+images/bkjurmala2b.jpg
 
 images/karma.png
 
