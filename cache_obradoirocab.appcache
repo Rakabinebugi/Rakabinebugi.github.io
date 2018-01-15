@@ -6,25 +6,26 @@ CACHE MANIFEST
 # Updated: 2018-01-15 T 19:30
 
 # Main page
-more2048.html
+obradoirocab.html
 
 # CSS
-style/more2048.css
+style/obradoirocab.css
 style/navbar.css
 style/modal.css
 
-
 #tile-sets
-tile-sets/Rakabinebugi/2.jpg
-tile-sets/MR/2.jpg
-tile-sets/Akmenlauzis/2.jpg
-tile-sets/Sabile/2.jpg
-tile-sets/Barons/2.jpg
-tile-sets/mrKalejs/2.jpg
-tile-sets/Martindiena/2.jpg
-tile-sets/BKJurmala/2.png
 tile-sets/ObradoiroCAB/2.png
-
+tile-sets/ObradoiroCAB/4.jpg
+tile-sets/ObradoiroCAB/8.jpg
+tile-sets/ObradoiroCAB/16.jpg
+tile-sets/ObradoiroCAB/32.jpg
+tile-sets/ObradoiroCAB/64.jpg
+tile-sets/ObradoiroCAB/128.jpg
+tile-sets/ObradoiroCAB/256.jpg
+tile-sets/ObradoiroCAB/512.jpg
+tile-sets/ObradoiroCAB/1024.jpg
+tile-sets/ObradoiroCAB/2048.jpg
+tile-sets/ObradoiroCAB/super.jpg
 
 # Fonts
 style/fonts/clear-sans.css
@@ -39,8 +40,7 @@ style/fonts/ClearSans-Regular-webfont.svg
 style/fonts/ClearSans-Regular-webfont.woff
 
 # Other resources
-meta/rakabinebugi.png
-
+meta/obradoirocab.png
 
 # JavaScript
 js/animframe_polyfill.js
@@ -53,10 +53,21 @@ js/html_actuator.js
 js/keyboard_input_manager.js
 js/local_storage_manager.js
 js/tile.js
+js/modal.js
 
 favicon.ico
 
-images/more20482b.jpg
+#Follow pictures
+images/facebook-24.png
+images/facebook-32.png
+images/instagram-24.png
+images/instagram-32.png
+images/twitter-24.png
+images/twitter-32.png
+images/obradoirocab-24.ico
+images/obradoirocab-32.ico
+
+images/obradoirocab2b.jpg
 
 images/karma.png
 
