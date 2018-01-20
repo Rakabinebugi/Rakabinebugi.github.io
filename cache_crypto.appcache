@@ -6,26 +6,26 @@ CACHE MANIFEST
 # Updated: 2018-01-20 T 17:30
 
 # Main page
-more2048.html
+crypto.html
 
 # CSS
-style/more2048.css
+style/crypto.css
 style/navbar.css
 style/modal.css
 
-
 #tile-sets
-tile-sets/Rakabinebugi/2.jpg
-tile-sets/MR/2.jpg
-tile-sets/Akmenlauzis/2.jpg
-tile-sets/Sabile/2.jpg
-tile-sets/Barons/2.jpg
-tile-sets/mrKalejs/2.jpg
-tile-sets/Martindiena/2.jpg
-tile-sets/BKJurmala/2.png
-tile-sets/ObradoiroCAB/2.png
-tile-sets/Crypto/2.png
-
+tile-sets/crypto/2.png
+tile-sets/crypto/4.jpg
+tile-sets/crypto/8.jpg
+tile-sets/crypto/16.jpg
+tile-sets/crypto/32.jpg
+tile-sets/crypto/64.jpg
+tile-sets/crypto/128.jpg
+tile-sets/crypto/256.jpg
+tile-sets/crypto/512.jpg
+tile-sets/crypto/1024.jpg
+tile-sets/crypto/2048.jpg
+tile-sets/crypto/super.jpg
 
 # Fonts
 style/fonts/clear-sans.css
@@ -40,8 +40,7 @@ style/fonts/ClearSans-Regular-webfont.svg
 style/fonts/ClearSans-Regular-webfont.woff
 
 # Other resources
-meta/rakabinebugi.png
-
+meta/crypto.png
 
 # JavaScript
 js/animframe_polyfill.js
@@ -54,10 +53,19 @@ js/html_actuator.js
 js/keyboard_input_manager.js
 js/local_storage_manager.js
 js/tile.js
+js/modal.js
 
 favicon.ico
 
-images/more20482b.jpg
+#Follow pictures
+images/facebook-24.png
+images/facebook-32.png
+images/instagram-24.png
+images/instagram-32.png
+images/twitter-24.png
+images/twitter-32.png
+
+images/crypto2b.jpg
 
 images/karma.png
 
