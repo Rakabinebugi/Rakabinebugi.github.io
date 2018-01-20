@@ -3,7 +3,7 @@ CACHE MANIFEST
 # Adds the ability to play the game online.
 # The following comment needs to be updated whenever a change is made.
 # Run `rake appcache:update` to do so
-# Updated: 2018-01-20 T 17:30
+# Updated: 2018-01-20 T 18:00
 
 # Main page
 crypto.html
@@ -14,18 +14,18 @@ style/navbar.css
 style/modal.css
 
 #tile-sets
-tile-sets/crypto/2.png
-tile-sets/crypto/4.jpg
-tile-sets/crypto/8.jpg
-tile-sets/crypto/16.jpg
-tile-sets/crypto/32.jpg
-tile-sets/crypto/64.jpg
-tile-sets/crypto/128.jpg
-tile-sets/crypto/256.jpg
-tile-sets/crypto/512.jpg
-tile-sets/crypto/1024.jpg
-tile-sets/crypto/2048.jpg
-tile-sets/crypto/super.jpg
+tile-sets/Crypto/2.png
+tile-sets/Crypto/4.jpg
+tile-sets/Crypto/8.jpg
+tile-sets/Crypto/16.jpg
+tile-sets/Crypto/32.jpg
+tile-sets/Crypto/64.jpg
+tile-sets/Crypto/128.jpg
+tile-sets/Crypto/256.jpg
+tile-sets/Crypto/512.jpg
+tile-sets/Crypto/1024.jpg
+tile-sets/Crypto/2048.jpg
+tile-sets/Crypto/super.jpg
 
 # Fonts
 style/fonts/clear-sans.css
@@ -56,14 +56,6 @@ js/tile.js
 js/modal.js
 
 favicon.ico
-
-#Follow pictures
-images/facebook-24.png
-images/facebook-32.png
-images/instagram-24.png
-images/instagram-32.png
-images/twitter-24.png
-images/twitter-32.png
 
 images/crypto2b.jpg
 
