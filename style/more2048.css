@@ -55,7 +55,7 @@ hr {
 .mritunes {
  	display: block;
  	margin: auto;
- 	width: 80%;
+ 	width: 60%;
 }
 
 .more2048 {
@@ -87,6 +87,9 @@ hr {
   width: 130px;
   height: 130px;
  }
+
+ .mritunes {
+  width: 80%;}
 
  .more-title{
   font-size: 15px;
