@@ -3,7 +3,8 @@ CACHE MANIFEST
 # Adds the ability to play the game online.
 # The following comment needs to be updated whenever a change is made.
 # Run `rake appcache:update` to do so
-# Updated: 2018-01-20 T 18:00
+# Updated: 2018-07-14 T 13:00
+
 
 # Main page
 more2048.html

@@ -3,29 +3,29 @@ CACHE MANIFEST
 # Adds the ability to play the game online.
 # The following comment needs to be updated whenever a change is made.
 # Run `rake appcache:update` to do so
-# Updated: 2018-07-14 T 13:00
+# Updated: 2018-01-10 T 20:30
 
 # Main page
-markusriva.html
+bkjurmala.html
 
 # CSS
-style/markusriva.css
+style/bkjurmala.css
 style/navbar.css
 style/modal.css
 
 #tile-sets
-tile-sets/MR/2.jpg
-tile-sets/MR/4.jpg
-tile-sets/MR/8.jpg
-tile-sets/MR/16.jpg
-tile-sets/MR/32.jpg
-tile-sets/MR/64.jpg
-tile-sets/MR/128.jpg
-tile-sets/MR/256.jpg
-tile-sets/MR/512.jpg
-tile-sets/MR/1024.jpg
-tile-sets/MR/2048.jpg
-tile-sets/MR/super.jpg
+tile-sets/BKJurmala/2.png
+tile-sets/BKJurmala/4.jpg
+tile-sets/BKJurmala/8.jpg
+tile-sets/BKJurmala/16.jpg
+tile-sets/BKJurmala/32.jpg
+tile-sets/BKJurmala/64.jpg
+tile-sets/BKJurmala/128.jpg
+tile-sets/BKJurmala/256.jpg
+tile-sets/BKJurmala/512.jpg
+tile-sets/BKJurmala/1024.jpg
+tile-sets/BKJurmala/2048.jpg
+tile-sets/BKJurmala/super.jpg
 
 # Fonts
 style/fonts/clear-sans.css
@@ -40,10 +40,7 @@ style/fonts/ClearSans-Regular-webfont.svg
 style/fonts/ClearSans-Regular-webfont.woff
 
 # Other resources
-meta/apple-touch-icon.png
-meta/icon_bitcoin.svg
-meta/icon_pp.svg
-meta/og_image.png
+meta/bkjurmala.png
 
 # JavaScript
 js/animframe_polyfill.js
@@ -56,35 +53,21 @@ js/html_actuator.js
 js/keyboard_input_manager.js
 js/local_storage_manager.js
 js/tile.js
+js/modal.js
 
 favicon.ico
 
 #Follow pictures
-images/amazon-24.png
-images/amazon-32.png
 images/facebook-24.png
 images/facebook-32.png
-images/facebook-r-32.png
-images/google_plus-24.png
-images/google_plus-32.png
 images/instagram-24.png
 images/instagram-32.png
-images/itunes-24.png
-images/itunes-32.png
-images/youtube-24.png
-images/youtube-32.png
-images/soundcloud-24.png
-images/soundcloud-32.png
-images/spotify-24.png
-images/spotify-32.png
 images/twitter-24.png
 images/twitter-32.png
-images/vkontakte-24.png
-images/vkontakte-32.png
-images/mritunessmall.png
-images/mritunes.png
+images/bkjurmala-24.ico
+images/bkjurmala-32.ico
 
-images/MR2b.jpg
+images/bkjurmala2b.jpg
 
 images/karma.png
 
