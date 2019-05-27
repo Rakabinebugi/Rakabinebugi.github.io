@@ -3,7 +3,7 @@ CACHE MANIFEST
 # Adds the ability to play the game online.
 # The following comment needs to be updated whenever a change is made.
 # Run `rake appcache:update` to do so
-# Updated: 2018-01-10 T 20:30
+# Updated: 2019-05-27 T 20:00
 
 # Main page
 mrkalejs.html

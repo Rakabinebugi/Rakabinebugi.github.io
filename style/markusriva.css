@@ -570,7 +570,7 @@ hr {
   margin-top : 10px;
   display : block;
   }
-.facebook, .instagram, .twitter, .vkontakte, .googleplus {
+.facebook, .instagram, .twitter, .vkontakte {
   display : inline-block;
   margin-left: 5px;
   }
@@ -850,7 +850,7 @@ hr {
     margin-top : 10px;
     display : block;
     }
-  .facebook, .instagram, .twitter, .vkontakte, .googleplus {
+  .facebook, .instagram, .twitter, .vkontakte {
     display : inline-block;
     margin-left: 0;
     }

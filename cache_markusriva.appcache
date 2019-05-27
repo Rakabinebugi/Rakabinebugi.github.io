@@ -3,7 +3,7 @@ CACHE MANIFEST
 # Adds the ability to play the game online.
 # The following comment needs to be updated whenever a change is made.
 # Run `rake appcache:update` to do so
-# Updated: 2018-07-14 T 13:00
+# Updated: 2019-05-27 T 20:00
 
 # Main page
 markusriva.html
@@ -65,8 +65,6 @@ images/amazon-32.png
 images/facebook-24.png
 images/facebook-32.png
 images/facebook-r-32.png
-images/google_plus-24.png
-images/google_plus-32.png
 images/instagram-24.png
 images/instagram-32.png
 images/itunes-24.png
